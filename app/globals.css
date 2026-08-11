@@ -214,20 +214,23 @@
 }
 
 .bitmine-avatar {
-  width: 320px !important;
-  height: 320px !important;
+  width: 300px !important;
+  height: 300px !important;
   border-radius: 50% !important;
-  object-fit: contain !important;     /* ganti dari cover → contain */
-  object-position: center center;     /* biar full di tengah */
+  object-fit: cover !important;
+  object-position: center 40%;     /* sedikit ke atas supaya mohawk & teks proporsional */
   animation: grab-bounce 2.8s ease-in-out infinite;
   
-  /* Shadow yang lebih bersih */
-  filter: drop-shadow(0 8px 24px rgba(255, 140, 0, 0.45));
+  /* Shadow bersih */
+  filter: drop-shadow(0 8px 24px rgba(255, 140, 0, 0.5));
   
   transition: all 0.3s ease;
   pointer-events: auto;
   cursor: pointer;
-  background: transparent;
+  
+  /* Ini yang menghilangkan hitam di luar lingkaran */
+  background: #000;
+  box-shadow: 0 0 0 2px rgba(255, 140, 0, 0.3);
 }
 
 .bitmine-avatar:hover {
