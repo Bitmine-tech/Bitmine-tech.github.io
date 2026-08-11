@@ -36,7 +36,7 @@ export function Hero() {
           anywhere, owned by no one.
         </p>
 
-        <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+       <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
   <a
     href="#tools"
     className="inline-flex items-center justify-center gap-2 rounded bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
@@ -66,7 +66,6 @@ export function Hero() {
     <span className="coin coin-4">₿</span>
   </div>
 </div>
-        </div>
 
         <div className="mt-12 max-w-md rounded border border-border bg-card/60 p-4 text-xs text-muted-foreground">
           <span className="text-primary">$</span> whoami
