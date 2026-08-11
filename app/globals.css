@@ -202,7 +202,7 @@
 .bitmine-avatar {
   width: 72px;
   height: 72px;
-  border-radius: 50%;
+  border-radius: 100%;
   object-fit: cover;
   animation: grab-bounce 2.4s ease-in-out infinite;
   filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.7));
