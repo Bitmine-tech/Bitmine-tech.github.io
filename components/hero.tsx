@@ -10,6 +10,10 @@ export function Hero() {
       />
 
       <div className="relative mx-auto max-w-5xl px-4 py-20 sm:px-6 sm:py-28">
+        <p className="mb-4 font-mono text-sm text-muted-foreground">
+          Mis₿ah Elhamid | ₿itminetech
+        </p>
+
         <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs text-muted-foreground">
           <span className="relative flex size-2">
             <span className="absolute inline-flex size-full animate-ping rounded-full bg-primary opacity-60" />
