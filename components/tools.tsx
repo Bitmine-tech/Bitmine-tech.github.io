@@ -21,6 +21,7 @@ const tools = [
     lang: 'TypeScript',
     desc: 'A tiny set of dependency-free components for building interactive pages that ship as plain HTML.',
     stars: '1.4k',
+    url: 'https://htmx.org/',
   },
   {
     name: 'satsplit',
