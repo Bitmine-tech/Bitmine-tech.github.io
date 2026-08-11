@@ -71,7 +71,7 @@ export function Tools() {
           {tools.map((tool) => (
             <li key={tool.name} className="bg-card">
               <a
-                href="https://github.com"
+                href={tool.url}
                 target="_blank"
                 rel="noreferrer"
                 className="group flex h-full flex-col p-5 transition-colors hover:bg-secondary"
