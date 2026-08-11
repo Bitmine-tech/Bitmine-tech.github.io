@@ -52,19 +52,19 @@ export function Hero() {
     Get in touch
     <ArrowUpRight className="size-4" aria-hidden="true" />
   </a>
+</div>
 
-  {/* Avatar + floating coins */}
-  <div className="relative ml-1 h-14 w-14 shrink-0">
-    <img
-      src="/bitminetech-avatar.png"
-      alt="bitminetech"
-      className="bitmine-avatar relative z-10 h-14 w-14 rounded-full object-cover"
-    />
-    <span className="coin coin-1">₿</span>
-    <span className="coin coin-2">₿</span>
-    <span className="coin coin-3">₿</span>
-    <span className="coin coin-4">₿</span>
-  </div>
+{/* ===== Avatar Besar di Kanan ===== */}
+<div className="bitmine-avatar-wrapper">
+  <img
+    src="/bitminetech-avatar.png"
+    alt="bitminetech"
+    className="bitmine-avatar"
+  />
+  <span className="coin coin-1">₿</span>
+  <span className="coin coin-2">₿</span>
+  <span className="coin coin-3">₿</span>
+  <span className="coin coin-4">₿</span>
 </div>
 
         <div className="mt-12 max-w-md rounded border border-border bg-card/60 p-4 text-xs text-muted-foreground">
