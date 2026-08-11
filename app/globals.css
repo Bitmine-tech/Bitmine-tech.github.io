@@ -214,9 +214,9 @@
 }
 
 .bitmine-avatar {
-  width: 300px !important;
-  height: 300px !important;
-  border-radius: 40% !important;
+  width: 280px !important;
+  height: 280px !important;
+  border-radius: 50% !important;
   object-fit: cover !important;
   object-position: center 35%;     /* sedikit ke atas supaya mohawk & teks proporsional */
   animation: grab-bounce 2.8s ease-in-out infinite;
