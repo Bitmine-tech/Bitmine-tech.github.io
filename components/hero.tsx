@@ -36,21 +36,36 @@ export function Hero() {
           anywhere, owned by no one.
         </p>
 
-        <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-          <a
-            href="#tools"
-            className="inline-flex items-center justify-center gap-2 rounded bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
-          >
-            <Bitcoin className="size-4" aria-hidden="true" />
-            View my tools
-          </a>
-          <a
-            href="#contact"
-            className="inline-flex items-center justify-center gap-2 rounded border border-border px-5 py-2.5 text-sm transition-colors hover:border-primary hover:text-primary"
-          >
-            Get in touch
-            <ArrowUpRight className="size-4" aria-hidden="true" />
-          </a>
+        <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+  <a
+    href="#tools"
+    className="inline-flex items-center justify-center gap-2 rounded bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+  >
+    <Bitcoin className="size-4" aria-hidden="true" />
+    View my tools
+  </a>
+
+  <a
+    href="#contact"
+    className="inline-flex items-center justify-center gap-2 rounded border border-border px-5 py-2.5 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+  >
+    Get in touch
+    <ArrowUpRight className="size-4" aria-hidden="true" />
+  </a>
+
+  {/* Avatar + floating coins */}
+  <div className="relative ml-1 h-14 w-14 shrink-0">
+    <img
+      src="/bitminetech-avatar.png"
+      alt="bitminetech"
+      className="bitmine-avatar relative z-10 h-14 w-14 rounded-full object-cover"
+    />
+    <span className="coin coin-1">₿</span>
+    <span className="coin coin-2">₿</span>
+    <span className="coin coin-3">₿</span>
+    <span className="coin coin-4">₿</span>
+  </div>
+</div>
         </div>
 
         <div className="mt-12 max-w-md rounded border border-border bg-card/60 p-4 text-xs text-muted-foreground">
