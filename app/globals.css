@@ -214,11 +214,11 @@
 }
 
 .bitmine-avatar {
-  width: 300px !important;
-  height: 300px !important;
+  width: 320px !important;
+  height: 320px !important;
   border-radius: 50% !important;
-  object-fit: cover !important;
-  object-position: center top;
+  object-fit: contain !important;     /* ganti dari cover → contain */
+  object-position: center center;     /* biar full di tengah */
   animation: grab-bounce 2.8s ease-in-out infinite;
   
   /* Shadow yang lebih bersih */
@@ -227,6 +227,7 @@
   transition: all 0.3s ease;
   pointer-events: auto;
   cursor: pointer;
+  background: transparent;
 }
 
 .bitmine-avatar:hover {
