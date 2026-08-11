@@ -198,31 +198,15 @@
 .animate-ticker {
   animation: ticker 28s linear infinite;
 }
-/* ===== Hero ===== */
-.hero {
-  position: relative !important;
-  display: flex;
-  align-items: center;
-  min-height: 90vh;
-  overflow: hidden;
-}
-
-/* Konten kiri */
-.hero-content {
-  position: relative;
-  z-index: 5;
-  max-width: 540px;
-}
-
-/* ===== Avatar Besar di Kanan ===== */
+/* ===== Bitminetech Avatar Besar di Kanan ===== */
 .bitmine-avatar-wrapper {
-  position: absolute !important;
-  right: 6% !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  width: 400px !important;
-  height: 400px !important;
-  z-index: 2;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 380px;
+  height: 380px;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -230,36 +214,37 @@
 }
 
 .bitmine-avatar {
-  width: 320px !important;
-  height: 320px !important;
+  width: 300px !important;
+  height: 300px !important;
   border-radius: 50% !important;
-  object-fit: cover !important;   /* ini penting supaya tidak lonjong */
+  object-fit: cover !important;
   object-position: center top;
   animation: grab-bounce 2.8s ease-in-out infinite;
-  filter: drop-shadow(0 0 50px rgba(255, 140, 0, 0.6));
+  filter: drop-shadow(0 0 50px rgba(255, 140, 0, 0.65));
   transition: all 0.3s ease;
   pointer-events: auto;
+  cursor: pointer;
 }
 
 .bitmine-avatar:hover {
   transform: scale(1.07);
-  filter: drop-shadow(0 0 70px rgba(255, 140, 0, 0.85));
+  filter: drop-shadow(0 0 70px rgba(255, 140, 0, 0.9));
 }
 
-/* Coins */
 .coin {
   position: absolute;
   color: #f7931a;
   font-weight: 700;
   text-shadow: 0 0 12px rgba(247, 147, 26, 0.9);
   pointer-events: none;
-  z-index: 3;
+  z-index: 20;
+  user-select: none;
 }
 
-.coin-1 { top: 12%; left: 8%;  font-size: 24px; animation: float-coin 3.1s ease-in-out infinite; }
-.coin-2 { top: 18%; right: 6%; font-size: 22px; animation: float-coin 2.8s ease-in-out infinite 0.3s; }
-.coin-3 { bottom: 14%; left: 12%; font-size: 20px; animation: float-coin 3.4s ease-in-out infinite 0.7s; }
-.coin-4 { bottom: 20%; right: 10%; font-size: 19px; animation: float-coin 3s ease-in-out infinite 1.1s; }
+.coin-1 { top: 12%; left: 10%;  font-size: 24px; animation: float-coin 3.1s ease-in-out infinite; }
+.coin-2 { top: 18%; right: 8%;  font-size: 22px; animation: float-coin 2.8s ease-in-out infinite 0.3s; }
+.coin-3 { bottom: 14%; left: 14%; font-size: 20px; animation: float-coin 3.4s ease-in-out infinite 0.7s; }
+.coin-4 { bottom: 20%; right: 12%; font-size: 19px; animation: float-coin 3s ease-in-out infinite 1.1s; }
 
 @keyframes grab-bounce {
   0%, 100% { transform: translateY(0) scale(1); }
@@ -272,19 +257,31 @@
   50% { transform: translateY(-16px) scale(1.25); opacity: 1; }
 }
 
-/* Mobile */
-@media (max-width: 1000px) {
+/* Responsive */
+@media (max-width: 1100px) {
   .bitmine-avatar-wrapper {
-    position: relative !important;
-    right: auto !important;
-    top: auto !important;
-    transform: none !important;
-    margin: 3rem auto 0;
-    width: 280px !important;
-    height: 280px !important;
+    width: 300px;
+    height: 300px;
+    right: 2%;
   }
   .bitmine-avatar {
-    width: 220px !important;
-    height: 220px !important;
+    width: 230px !important;
+    height: 230px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .bitmine-avatar-wrapper {
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+    margin: 3rem auto 0;
+    width: 260px;
+    height: 260px;
+  }
+  .bitmine-avatar {
+    width: 200px !important;
+    height: 200px !important;
   }
 }
