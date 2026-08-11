@@ -218,7 +218,7 @@
   height: 300px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
-  object-position: center 50%;     /* sedikit ke atas supaya mohawk & teks proporsional */
+  object-position: center 48%;     /* sedikit ke atas supaya mohawk & teks proporsional */
   animation: grab-bounce 2.8s ease-in-out infinite;
   
   /* Shadow bersih */
