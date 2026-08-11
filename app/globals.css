@@ -200,9 +200,9 @@
 }
 /* ===== Bitminetech Avatar Animation ===== */
 .bitmine-avatar {
-  width: 72px;
-  height: 72px;
-  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  border-radius: 150%;
   object-fit: cover;
   animation: grab-bounce 2.4s ease-in-out infinite;
   filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.7));
