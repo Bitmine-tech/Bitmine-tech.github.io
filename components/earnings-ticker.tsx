@@ -49,7 +49,8 @@ export function EarningsTicker() {
     <div className="mb-4 inline-flex flex-wrap items-center gap-x-6 gap-y-1 rounded border border-border bg-card/60 px-4 py-2 font-mono text-xs">
       <span>
         <span className="text-muted-foreground">total earned </span>
-        <span className="text-primary">${formatUSD(earned, 4)}</span>
+        <span className="text-primary">${formatUSD(earned, 6)}</span>
+        <span className="text-muted-foreground"> ({DAILY_RATE.toFixed(1)}/day)</span>
       </span>
       <span>
         <span className="text-muted-foreground">withdrawn </span>
@@ -57,7 +58,7 @@ export function EarningsTicker() {
       </span>
       <span>
         <span className="text-muted-foreground">balance </span>
-        <span className="text-primary">${formatUSD(balance, 4)}</span>
+        <span className="text-primary">${formatUSD(balance, 6)}</span>
       </span>
     </div>
   )
