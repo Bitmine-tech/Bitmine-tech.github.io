@@ -7,7 +7,7 @@ import {
 
 const links = [
   { label: 'GitHub', href: 'https://github.com/Bitmine-tech', icon: Github },
-  { label: 'X / Twitter', href: 'https://x.com', icon: Twitter },
+  { label: 'X / Twitter', href: 'https://x.com/Bitminetech_id', icon: Twitter },
   { label: 'RSS', href: '#', icon: Rss },
   { label: 'Email', href: 'mailto:hello@bitmine.tech', icon: Mail },
 ]
