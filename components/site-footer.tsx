@@ -6,7 +6,7 @@ import {
 } from 'lucide-react'
 
 const links = [
-  { label: 'GitHub', href: 'https://github.com', icon: Github },
+  { label: 'GitHub', href: 'https://github.com/Bitmine-tech', icon: Github },
   { label: 'X / Twitter', href: 'https://x.com', icon: Twitter },
   { label: 'RSS', href: '#', icon: Rss },
   { label: 'Email', href: 'mailto:hello@bitmine.tech', icon: Mail },
