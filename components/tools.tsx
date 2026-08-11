@@ -7,6 +7,7 @@ const tools = [
     lang: 'Rust',
     desc: 'Zero-config static site builder. Markdown in, blazing HTML out — no runtime, no lock-in.',
     stars: '2.1k',
+    url: 'https://www.linuxlinks.com/staticforge-static-site-generator/',
   },
   {
     name: 'blockwatch',
@@ -14,6 +15,7 @@ const tools = [
     lang: 'Go',
     desc: 'Lightweight dashboard for your full node. Track mempool, hashrate and block propagation in real time.',
     stars: '870',
+    url: 'https://blockwatch.cc/account/profile',
   },
   {
     name: 'htmx-kit',
@@ -29,6 +31,8 @@ const tools = [
     lang: 'TypeScript',
     desc: 'Split Lightning payments across contributors with a single invoice. Open protocol, self-hostable.',
     stars: '640',
+    url: 'https://lightningnetwork.plus/profiles/12142',
+    
   },
   {
     name: 'coldvault',
@@ -36,6 +40,7 @@ const tools = [
     lang: 'Rust',
     desc: 'Air-gapped key management for the paranoid. Deterministic, auditable, and fully offline.',
     stars: '1.9k',
+    url: 'https://faqs.thorwallet.org/liquidity-pooling',
   },
   {
     name: 'edgepress',
@@ -43,6 +48,7 @@ const tools = [
     lang: 'Shell',
     desc: 'One command to publish any static folder to the edge. Works with any host, no vendor magic.',
     stars: '520',
+    url: 'https://www.edgepress.org/',
   },
 ]
 
