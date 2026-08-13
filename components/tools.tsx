@@ -15,7 +15,7 @@ const tools = [
     lang: 'Go',
     desc: 'Lightweight dashboard for your full node. Track mempool, hashrate and block propagation in real time.',
     stars: '870',
-    url: 'https://blockwatch.cc/account/profile',
+    url: 'https://blockwatch.cc/databases/blockchains/BTC',
   },
   {
     name: 'htmx-kit',
