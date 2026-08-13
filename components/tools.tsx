@@ -31,7 +31,7 @@ const tools = [
     lang: 'TypeScript',
     desc: 'Split Lightning payments across contributors with a single invoice. Open protocol, self-hostable.',
     stars: '640',
-    url: 'https://lightningnetwork.plus/profiles/12142',
+    url: 'https://lightningnetwork.plus/stores/lightning-labs',
     
   },
   {
