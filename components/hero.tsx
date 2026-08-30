@@ -32,7 +32,7 @@ export function Hero() {
   >
     mempool.space
   </a>
-  {' '}|{' '}|{' '}
+  {' '}|{' '}
   <a
     href="https://www.blockchain.com/investor-relations"
     target="_blank"
