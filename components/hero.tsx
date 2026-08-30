@@ -22,7 +22,7 @@ export function Hero() {
     style={{ color: '#ef4444' }}
     className="hover:opacity-80 transition-opacity"
   >
-    We Like it >_Chain of Thought
+    We Like it Chain of Thought
   </a>
 </p>
 
