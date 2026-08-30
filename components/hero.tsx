@@ -19,9 +19,9 @@ export function Hero() {
     href="https://chain-of-thought.org/"
     target="_blank"
     rel="noopener noreferrer"
-    className="hover:text-primary transition-colors"
+    className="text-red-500 hover:text-red-400 transition-colors"
   >
-    Chain of Thought
+    We Like It >_ Chain of Thought
   </a>
 </p>
 
