@@ -14,7 +14,7 @@ export function Hero() {
         <EarningsTicker />
 
         <p className="mb-4 font-mono text-sm text-muted-foreground">
-  Mis₿ah Elhamid | ₿itminetech |{' '}
+  Mis₿ah Elhamid | ₿itminetech |{' '} |{' '}
   <a
     href="https://chain-of-thought.org/"
     target="_blank"
@@ -23,6 +23,15 @@ export function Hero() {
     className="hover:opacity-80 transition-opacity"
   >
     We Like it Chain of Thought
+  </a>
+          <a
+    href="https://mempool.space/"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: '#ef4444' }}
+    className="hover:opacity-80 transition-opacity"
+  >
+    mempool.space
   </a>
 </p>
 
