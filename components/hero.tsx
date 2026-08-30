@@ -32,6 +32,15 @@ export function Hero() {
   >
     mempool.space
   </a>
+  {' '}|{' '}|{' '}
+  <a
+    href="https://www.blockchain.com/investor-relations"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="!text-red-500 hover:!text-red-400 transition-colors"
+  >
+    Investor resources And Blockchain Ventures
+  </a>
 </p>
 
         <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs text-muted-foreground">
