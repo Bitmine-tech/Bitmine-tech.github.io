@@ -23,7 +23,7 @@ export function Hero() {
   >
     Chain of Thought
   </a>
-  {' '}·{' '}
+  {' '}|{' '}
   <a
     href="https://mempool.space/"
     target="_blank"
