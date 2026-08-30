@@ -14,8 +14,16 @@ export function Hero() {
         <EarningsTicker />
 
         <p className="mb-4 font-mono text-sm text-muted-foreground">
-          Mis₿ah Elhamid | ₿itminetech
-        </p>
+  Mis₿ah Elhamid | ₿itminetech |{' '}
+  <a
+    href="https://chain-of-thought.org/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-primary transition-colors"
+  >
+    Chain of Thought
+  </a>
+</p>
 
         <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs text-muted-foreground">
           <span className="relative flex size-2">
